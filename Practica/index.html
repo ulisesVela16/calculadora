@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.5/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div class="content">
+        
+        <div class="form-container">
+            
+            <h1>Calculadora basica</h1>
+            
+            <label for="num1">Ingresa el primer numero</label>
+            <input type="number" name="n1" id="num1" placeholder="Primer numero" value="">
+            
+            <label for="num1">Selecciona el operador</label>
+            <div class="operadores">
+                <label for="sumaRadio">+</label>
+                <input type="radio" id="suma" name="operador"/>
+                
+                <label for="restaRadio">-</label>
+                <input type="radio" id="resta" name="operador"/>
+                
+                <label for="multiplicacionRadio">*</label>
+                <input type="radio" id="multiplicacion" name="operador"/>
+                
+                <label for="divisionRadio">/</label>
+                <input type="radio" id="division" name="operador"/>
+            </div>
+               
+            <label for="num2">Ingresa el segundo numero</label>
+            <input type="number" name="n2" id="num2" placeholder="Segundo numero" value="">
+             
+            <button id="suma" class="btn" onclick="calculadora()">Sumar</button>
+            
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.5/dist/sweetalert2.all.min.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>

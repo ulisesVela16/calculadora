@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #f0eeeecb;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 40%;
+    height: 50vh;
+    background-color: #ffff;
+    border-radius: 20px;
+}
+
+.form-container .operadores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.form-container input{
+    height: 10px;
+    width: 80%;
+    margin: 20px;
+    border-color: #f200007a;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.form-container label{
+    font-size: 20px;
+}
+
+.btn{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    border:none;
+    background-color: #259502;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: #1a6803;
+    color: #c5c3c3;
+    transform: scale(1.2);
+}
